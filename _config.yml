@@ -1,0 +1,21 @@
+# Site settings
+title: Joseph Hallenbeck
+email: joe@joehallenbeck.com
+description: >
+    The blog of all things Joe Hallenbeck. Computer science. Cultural criticism.
+    Philosophy. Comics. Drawing. Anything and nothing!
+baseurl: "/"
+url: "http://joehallenbeck.com"
+
+# Social Accounts
+twitter: Lordbowlich
+github:  Kynda
+linkedin: joseph-hallenbeck-203b1b22
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+paginate: 10
+paginate_path: "/page/:num"
+include: ["_pages"]
+exclude: ["docker-compose.yml"]

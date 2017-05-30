@@ -1,0 +1,30 @@
+{% assign categoryCount = page.categories | size %}
+{% assign tagCount = page.tags | size %}
+
+<article>
+    <div class="head-matter">
+        {% if page.date %}
+        <div class="date">{{ page.date | date: '%B %d, %Y' }}</div>
+        {% endif %}
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        {% if categoryCount != 0 %}
+            <div class="meta">Filed under:
+            {% for category in page.categories %}
+            <a href="/categories/{{ category | slugify }}">{{ category }}</a>
+            {% endfor %}
+            {% if tagCount != 0 %}
+            part of
+                {% for tag in page.tags %}
+                <a href="/series/{{ tag | slugify }}">{{ tag }}</a>
+                {% endfor %}
+            {% endif %}
+            </div>
+        {% endif %}
+    </div>
+    {% if excerpt %}
+        {% capture link %}<a href="{{ page.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>{% endcapture %}
+        {{ excerpt | strip_html | truncatewords: 50 | append: link }}
+    {% else %}
+        {{ content }}
+    {% endif %}
+</article>
