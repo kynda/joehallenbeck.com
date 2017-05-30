@@ -5,7 +5,7 @@
             <li class="xs-inline"><a href="{{ site.baseurl }}">blog</a></li>
             {% for page in site.pages %}
                 {% if page.title and page.layout == 'page' %}
-                <li class="xs-inline {% if page.title == 'Categories' or page.title == 'Recent Posts' or page.title == 'Series' %}visible-xs-inline{% endif %}">
+                <li class="xs-inline {% if page.title == 'Categories' or page.title == 'Series' %}visible-xs-inline{% endif %}">
                     <a href="{{ page.url }}">{{ page.title }}</a>
                 </li>
                 {% endif %}
