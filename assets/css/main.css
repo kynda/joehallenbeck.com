@@ -18,7 +18,8 @@
     }
 }
 
-a:link, a:visited{
+a:link,
+a:visited{
     color: #665062;
 }
 
@@ -131,9 +132,29 @@ article .head-matter h1 {
     font-size: 42px;
 }
 
+article .head-matter a:link,
+article h1 a:link,
+article h2 a:link,
+article h3 a:link,
+article h4 a:link {
+    text-decoration: none;
+}
+
 article .head-matter .meta {
     color: #888;
     font-size: 13px;
+}
+
+article a:link,
+article a:visited{
+    text-decoration: underline;
+}
+
+article h1,
+article h2,
+article h3,
+article h4 {
+    font-weight: 600;
 }
 
 article h1 {
@@ -142,6 +163,12 @@ article h1 {
 
 article h2 {
     border-bottom: 1px dotted #ccc;
+}
+
+article p,
+article > ul,
+article > ol {
+    margin-bottom: 1.4em;
 }
 
 article blockquote {
@@ -154,6 +181,8 @@ article img {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
+    display: block;
+    margin: auto;
 }
 
 .pagination {

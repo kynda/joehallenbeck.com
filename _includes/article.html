@@ -23,7 +23,10 @@
     </div>
     {% if excerpt %}
         {% capture link %}<a href="{{ page.url }}"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>{% endcapture %}
-        {{ excerpt | strip_html | truncatewords: 50 | append: link }}
+        {% if page.cover %}
+        <img src="{{ page.cover }}" />
+        {% endif %}
+        {{ excerpt | strip_html | truncatewords: 100 | append: link }}
     {% else %}
         {{ content }}
     {% endif %}
