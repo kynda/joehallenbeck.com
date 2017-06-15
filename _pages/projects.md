@@ -55,6 +55,17 @@ National Monuments.
 
 ![JECA Ad 2009][]
 
+Miscellaneous
+-------------------------------------------------------------------------------
+
+### [Bowlich's Land of Links][]
+
+A Shaarli instance hosting links to all the random articles that I've read and
+thoguht well enough to bookmark (or merely liked the headline, and saved for
+later reading). IF you can stand my tastes, subscribe to the RSS feed. Set up
+your own and let me know. Anything to not contribute to the Social Media sharing
+frenzy.
+
 [Github]: https://github.com/{{ site.github }}
 [TimeKeeper]: https://github.com/{{ site.github }}/TimeKeeper
 [Damasca]: http://damasca.net
@@ -64,3 +75,4 @@ National Monuments.
 [JECA Ad 2010]: /images/pages/projects/print_jeca_ad_2010.jpg
 [JECA Ad 2009]: /images/pages/projects/print_jeca_ad.jpg
 [Kierkegaard]: /static/Philosophy_Thesis.pdf
+[Bowlich's Land of Links]: asgard.kynda.net:8085
