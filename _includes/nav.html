@@ -17,7 +17,7 @@
         <ul>
         {% for category in site.categories %}
             {% capture category_name %}{{ category | first }}{% endcapture %}
-            <li><a href="/categories/{{ category_name | slugify }}">{{ category_name }}</a>
+            <li><a href="/category/{{ category_name | slugify }}">{{ category_name }}</a>
         {% endfor %}
         </ul>
         <h4>series</h4>
@@ -32,6 +32,27 @@
         {% for post in site.posts limit:15 %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
+        </ul>
+        <h4>annual archives</h4>
+        <ul>
+        {% assign count = 0 %}
+        {% for post in site.posts %}
+            {% assign currentdate = post.date | date: "%Y" %}
+            {% if currentdate != date and firstpass == 1 %}
+                ({{ count }})</a>
+                {% assign count = 0 %}
+                </li>
+            {% endif %}
+            {% if currentdate != date %}
+                <li>
+                <a href="/year/{{ currentdate }}/">Posts from {{ currentdate }}
+                {% assign date = currentdate %}
+                {% assign firstpass = 1 %}
+            {% endif %}
+            {% assign count = count | plus: 1 %}
+        {% endfor %}
+            ({{ count }})</a>
+            </li>
         </ul>
     </div>
 </nav>

@@ -9,8 +9,10 @@ self-hosted.
 
 All batteries included, but to rebuild the site you will need:
 
-- jekyll 2.5.3
-- rougify 2.0.7
+- jekyll 3.4.3
+- rougify 1.11.1
+- ll-paginate
+- jekyll-archive
 
 [joehallenbeck.com]: http://joehallenbeck.com
 [Jekyllrb]: http://jekyllrb.com

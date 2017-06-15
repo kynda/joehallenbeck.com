@@ -11,11 +11,24 @@ url: "http://joehallenbeck.com"
 twitter: Lordbowlich
 github:  Kynda
 linkedin: joseph-hallenbeck-203b1b22
+pikwik: null
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-paginate: 10
-paginate_path: "/page/:num"
 include: ["_pages"]
 exclude: ["docker-compose.yml", "README.md", "LICENSE", "_posts/images"]
+gems: ["jekyll-paginate", "jekyll-archives"]
+
+# Paginate Configuration
+paginate: 10
+paginate_path: "/page/:num"
+
+# Archives Configuration
+jekyll-archives:
+    enabled: ['year', 'categories', 'tags']
+    layout: 'archive'
+    permalinks:
+        year: '/year/:year/'
+        tag: '/series/:name/'
+        category: '/category/:name/'

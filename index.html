@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for page in paginator.posts %}
-    {% capture excerpt %}{{ page.content %}}{% endcapture %}
+    {% capture excerpt %}{{ page.content }}{% endcapture %}
     {% include article.html %}
 {% endfor %}
 

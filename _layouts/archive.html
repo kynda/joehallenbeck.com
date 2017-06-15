@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>
+    {% if page.title %}
+        {{ page.title }}
+    {% else %}
+        Anno Domini {{ page.date | date: "%Y" }}
+    {% endif %}
+</h1>
+
+{% for page in page.posts %}
+    {% capture excerpt %}{{ page.content }}{% endcapture %}
+    {% include article.html %}
+{% endfor %}
+
