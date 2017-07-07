@@ -11,7 +11,8 @@ url: "http://joehallenbeck.com"
 twitter: Lordbowlich
 github:  Kynda
 linkedin: joseph-hallenbeck-203b1b22
-pikwik: null
+piwik_url: piwik.kynda.net
+piwik_id: 1
 
 # Build settings
 markdown: kramdown
