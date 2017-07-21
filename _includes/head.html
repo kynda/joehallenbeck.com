@@ -4,8 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}{% if paginator.page %} - Page {{ paginator.page }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html',''| prepend: site.url }}">
+    {% capture description %}
+        {% if page.description %}
+            {{ page.description }}
+        {% elsif paginator.page or page.posts %}
+            {{ site.description }}
+        {% else %}
+            {{ page.content }}
+        {% endif %}
+    {% endcapture %}
+    <meta name="description" content="{{ description | strip_html | markdownify | strip_html | smartify | normalize_whitespace | truncate: 160 }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml"| prepend: site.url }}" />
 
     <link rel="Shortcut Icon" href="/images/template/favicon.ico" />

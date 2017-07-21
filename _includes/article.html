@@ -10,7 +10,7 @@
         {% if categoryCount != 0 %}
             <div class="meta">Filed under:
             {% for category in page.categories %}
-            <a href="/categories/{{ category | slugify }}">{{ category }}</a>
+            <a href="/category/{{ category | slugify }}">{{ category }}</a>
             {% endfor %}
             {% if tagCount != 0 %}
             part of

@@ -175,6 +175,14 @@ article blockquote {
     font-size: 15px;
 }
 
+article dt {
+    font-weight: 500;
+}
+
+article dd {
+    margin-bottom: 1.2em;
+}
+
 article img {
     max-width: 100%;
     padding: 4px;

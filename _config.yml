@@ -1,4 +1,5 @@
 # Site settings
+author: Joseph Hallenbeck
 title: Joseph Hallenbeck
 email: joe@joehallenbeck.com
 description: >
@@ -11,6 +12,8 @@ url: "http://joehallenbeck.com"
 twitter: Lordbowlich
 github:  Kynda
 linkedin: joseph-hallenbeck-203b1b22
+shaarli: http://bowlich.com
+patreon: joehallenbeck
 piwik_url: piwik.kynda.net
 piwik_id: 1
 
