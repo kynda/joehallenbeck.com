@@ -4,8 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+About This Blog
+-------------------------------------------------------------------------------
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+This site is an "Anything and Nothing" blog. It is my home page. My portfolio
+and resume. It is a place where I ramble on about my life, and all kinds of
+oddball topics, hobbies, and side projects that pass by me through the year.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I am sure there are hundreds of poorly written blog posts out there telling
+prospective writers to pick a niche and stick to it. This is not such a blog.
+
+About Me
+-------------------------------------------------------------------------------
+
+{% include about.html %}
