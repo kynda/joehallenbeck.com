@@ -18,6 +18,9 @@
                 <a href="/series/{{ tag | slugify }}">{{ tag }}</a>
                 {% endfor %}
             {% endif %}
+            {% if page.updated %}
+              (updated on {{ page.updated }})
+            {% endif %}
             </div>
         {% endif %}
     </div>
