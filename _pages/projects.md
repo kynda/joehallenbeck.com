@@ -4,6 +4,15 @@ title: Projects
 permalink: /projects/
 ---
 
+Kynda Consulting, LLC
+-------------------------------------------------------------------------------
+
+[Kynda][]
+: Providing web-based workflow automation solutions and consumer facing website
+design, development and hosting from the White Mountains of Arizona to anywhere,
+USA.
+
+
 Software
 -------------------------------------------------------------------------------
 
@@ -68,6 +77,7 @@ National Monuments.
 
 ![JECA Ad 2009][]
 
+[Kynda]: http://kynda.net
 [Github]: https://github.com/{{ site.github }}
 [TimeKeeper]: https://github.com/{{ site.github }}/TimeKeeper
 [DropFramework]: https://github.com/{{ site.github }}/DropFramework

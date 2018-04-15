@@ -22,12 +22,11 @@ Work Experience
 
 - Refactored a 1.4 million loc enterprise PHP application into two
   separate applications addressing distinct business contexts.
-- Ongoing work to improve UI/UX using React/Redux to move internal web
-  applications from multi-page to single-page applications
+- Introduced and championed the adoption of behavioral driven development
 - Used domain driven design in a brownfield and greenfield environment
   to craft enterprise software that mirrored the language and processes of
   business operations.
-- Maintained legacy Zend Framework 1 and Zend Framework 2 applications;
+- Maintained legacy Zend Framework 1 and Zend Framework 3 applications;
   developed Slim framework applications to create web APIs to support a
   microservice architecture.
 - Worked with a diverse scrum team in a continuous integration workflow.
@@ -84,16 +83,16 @@ Work Experience
 Skills
 -------------------------------------------------------------------------------
 
-- **Languages:** PHP, Javasscript (ES6), SQL, BASH, Python
-- **Front-End:** React/Redux, HTML5, CSS & CSS pre-processors, Some LaTeX
+- **Languages:** PHP, Javasscript (ES6), SQL, Shell, Python
+- **Front-End:** HTML5, CSS & CSS pre-processors, Some LaTeX
 - **Frameworks:** Zend Framework 1 & 2/3, Slim, CodeIgniter, Laraval4, Silex
 - **Content Management:** WordPress, Jekyll, Joomla 1, Lemonstand v1
-- **Common APIs:** Quickbooks API, Google Maps API, Facebook API, Twitter API, 
+- **Common APIs:** Quickbooks API, Zohobooks API, Google Maps API, 
   Authorize.Net API, Paypal REST API, Elastic Search
 - **Message Queues:** AWS SNS \& SQS Queues, Beanstalk
-- **Software:** LAMP --  Linux server administration (CENTOS, Ubuntu), Apache 
-  HTTP server administration, MySQL databases; Adobe CS Suite, VIM, Git version 
-  control.
+- **Operations** Docker Containers, Linux (CENTOS, Ubuntu), NGINX and Apache 
+  HTTP server administration, MySQL/MariaDB databases
+- **Software:** Adobe CS Suite, VIM, Git version control.
 - **Concepts:** Behevioral Driven Development, Domain Driven Design,
   microservice architectures, strong grasp of object orientated programming,
   database design, and design patterns
@@ -116,7 +115,7 @@ Operating Systems I, C Programming Language, C++ Programming Language
 ### Honors
 
 - Graduated Magna Cum Laude
--  Dean's List, all semesters
+- Dean's List, all semesters
 - Sigma Tau Delta Literary Honors Society
 - Visiting Scholar Seat, Harris-Manchester College, University of Oxford
 - Eagle Scout
