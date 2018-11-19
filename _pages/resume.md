@@ -18,64 +18,49 @@ Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 Work Experience
 -------------------------------------------------------------------------------
 
-**Software Engineer,** Research Square, Durham, NC 1/2015 -- Present
+**Software Engineer,** Research Square, Durham, NC 1/2015 -- 11/2018
 
-- Refactored a 1.4 million loc enterprise PHP application into two
-  separate applications addressing distinct business contexts.
-- Introduced and championed the adoption of behavioral driven development
-- Used domain driven design in a brownfield and greenfield environment
-  to craft enterprise software that mirrored the language and processes of
-  business operations.
-- Maintained legacy Zend Framework 1 and Zend Framework 3 applications;
-  developed Slim framework applications to create web APIs to support a
-  microservice architecture.
-- Worked with a diverse scrum team in a continuous integration workflow.
-  Composed unit tests. Engaged in team code reviews.
-- Successful remote worker. Business was based in Durham, NC but had
-  team members in Arizona, Missouri and Kansas. Kept abreast of team and
-  business needs via e-mail, Slack and Google Hangouts.
+- Supported legacy software and new feature development of an enterprise Zend
+  Framework PHP application responsible for directing workflows and task
+  assignment for a team of 300+ remote editors and translators
+- Spearheaded project to migrate 500,000 invoices from an internally built
+  accounting suite to ZohoBooks or QuickBooks. Evaluated  potential external
+  accounting suites for suitability. Maintained record integrity of new
+  transactions while actively migrating existing records.
+- Refactored a 1.4 million loc monolithic PHP application into smaller business
+  contexts through the application of Domain Driven Design principles. Contexts
+  used AWS SNS/SQS queues to communicate domain events between services in a
+  hexagonal architecture.
+- 100% remote team; used a scrum-based methodology for project management, unit
+  testing, code reviews, and pairing to maintain team cohesion and project
+  success
   
-**Owner, Software Engineer,** Joseph Hallenbeck LLC. 7/2009 -- Present
+**Owner, Software Engineer,** Joseph Hallenbeck LLC. 7/2015 -- Present
 
-- Analyzed client needs, designed web site solutions, and implemented
-  those solutions as WordPress themes.
-- Developed corporate website for Sunset Office Cleaning which achieved
-  a \#1 rank on Google for "Sioux Falls Office Cleaning".
+- Analyzed client needs and developed Wordpress themes to match corporate
+  branding and marketing specifications
 
 **Developer,** 44Interactive, Sioux Falls, SD 1/2013 -- 12/2014
- 
-- Maintained PCI compliance. Improved system security through regular
-  maintenance and proper user permission segmentation.
-- Performed daily log reports and responded to system stability
-  issues as they arose. Increased production system up-time from 97% to
-  99.99% on a server that saw 50k+ unique visitors per day.
-- Initiated internal documentation using a team Wiki and
-  password vault to assist with team collaboration.
-- Refactored company's custom CodeIgniter based CMS. Moved CMS into a
-  team-supported Git repository, normalized database architecture and
-  introduced use of object-relation management tools to decrease database
-  calls and increase ease of development.
-- Addressed OWASP security issues in CMS including potential XSS and
-  injection attack vectors.
-- Wrote scripts to automate deployment and system debugging using
-  Python and BASH. Wrote command line scripts to perform mass updates to
-  CMS.
-- Launched custom e-commerce cart solutions. Built HTML5 drawing tools.
-  Built AJAX-heavy UX front-ends. Interfaced with external APIs such as Facebook,
-  Google, and CakeMail.
+
+- Developed a bespoke e-commerce platform using Laraval that supported inventory
+  management, shopping carts, and credit card transactions through
+  Authorize.net.  Clients included local golf courses and country clubs who used
+  our cart to process annual club memberships and tee-times.
+- Completed  the  front-end  development  of  and  launched  over  80  client
+  websites.  Front-end work included vanilla Javascript development of HTML5
+  drawing tools, interacting  with  API  back-ends,  and  interfacing  with
+  Facebook,  Google,  and Cakemail APIs.
+- Increased production system up-time from 97% to 99.99% on a server that saw
+  50k+ unique visitors per day and reduced server costs by 50%
 
 **Developer,** Gage E-Services, Sioux Falls, SD 7/2011 -- 1/2013
 
-- Developed Joomla and WordPress websites from start to finish
-  including business analysis of client needs, formulation of client specs,
-  handling markup of designs, database design, and back-end development.
-- Developed e-commerce sites using Lemonstand, custom WordPress sites,
-  and Joomla modules.
-  
+- Developed Joomla, Wordpress, and Lemonstand websites for a variety of clients
+- Assisted with translating client needs into technical specification
+ 
 **Lead Park Ranger,** Jewel Cave National Monument, Custer, SD 5/2008 -- 9/2011
  
-- Lead a diverse team of seasonal park rangers. Provided mentoring for
-  new rangers and assisted with annual training and performance evaluations.
+- Mentored new rangers and assisted with training and performance evaluations.
 - Edited, wrote, and designed layouts for full-color activity booklets,
   annual newspapers, advertisements, trail maps, press releases, public
   correspondence, newsletters, e-mails, and reports.
@@ -83,14 +68,14 @@ Work Experience
 Skills
 -------------------------------------------------------------------------------
 
-- **Languages:** PHP, Javasscript (ES6), SQL, Shell, Python
-- **Front-End:** HTML5, CSS & CSS pre-processors, Some LaTeX
+- **Languages:** PHP, Javascript (ES6), SQL, Shell, Python
+- **Front-End:** HTML5, CSS & CSS pre-processors (Sass, Less), Some LaTeX
 - **Frameworks:** Zend Framework 1 & 2/3, Slim, CodeIgniter, Laraval4, Silex
 - **Content Management:** WordPress, Jekyll, Joomla 1, Lemonstand v1
 - **Common APIs:** Quickbooks API, Zohobooks API, Google Maps API, 
   Authorize.Net API, Paypal REST API, Elastic Search
 - **Message Queues:** AWS SNS \& SQS Queues, Beanstalk
-- **Operations** Docker Containers, Linux (CENTOS, Ubuntu), NGINX and Apache 
+- **Operations** Linux (CENTOS, Ubuntu), Docker, Ansible, NGINX and Apache 
   HTTP server administration, MySQL/MariaDB databases
 - **Software:** Adobe CS Suite, VIM, Git version control.
 - **Concepts:** Behevioral Driven Development, Domain Driven Design,
