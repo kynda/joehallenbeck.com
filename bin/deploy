@@ -1,0 +1,7 @@
+#!/bin/bash
+
+jekyll b \
+    -s ./ \
+    -d ./_site/
+chmod -R 0775 ./_site/
+rsync -avzP ./_site/ kynda:~/www/joehallenbeck.com
