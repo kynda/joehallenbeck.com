@@ -20,8 +20,8 @@ piwik_id: 1
 markdown: kramdown
 highlighter: rouge
 include: ["_pages"]
-exclude: ["docker-compose.yml", "README.md", "LICENSE", "_posts/images", "bin"]
-gems: ["jekyll-paginate", "jekyll-archives"]
+exclude: ["Dockerfile", "docker-compose.yml", "README.md", "LICENSE", "_posts/images", "bin"]
+plugins: ["jekyll-paginate", "jekyll-archives"]
 
 # Paginate Configuration
 paginate: 10
