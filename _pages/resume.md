@@ -18,6 +18,23 @@ Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 Work Experience
 -------------------------------------------------------------------------------
 
+**Developer,** Fullbay, Phoenix, AZ 12/2018 -- Present
+
+- Worked in a fast-growing start up producing a SAAS solution for the heavy-duty
+  equipment repair industry. Saw teams scale from two to over a dozen individual
+  contributors in the first year. Worked on migrating early MVP to modern PHP
+  standards, established a git-flow workflow with the team and introduced Agile
+  project management practices.  -Implemented point of sale software through
+  WorldPay that processes $2+ million monthly card-present and card-not-present
+  transactions.
+- Coordinated with partners to co-develop interoperable APIs allowing for
+  communication between our software and theirs.
+- Used AWS Serverless services (Cloud Formation, Lambda, SNS, SQS) and Nodejs to
+  create an event-based routing system allowing for concurrent and "eventually
+  consistent" operations to be offloaded from the main client-facing server and
+  onto a distribution of PHP applications.  Opening doors for scaling operations
+  to meet new demand.
+
 **Software Engineer,** Research Square, Durham, NC 1/2015 -- 11/2018
 
 - Supported legacy software and new feature development of an enterprise Zend
@@ -35,11 +52,6 @@ Work Experience
   testing, code reviews, and pairing to maintain team cohesion and project
   success
   
-**Owner, Software Engineer,** Joseph Hallenbeck LLC. 7/2015 -- Present
-
-- Analyzed client needs and developed Wordpress themes to match corporate
-  branding and marketing specifications
-
 **Developer,** 44Interactive, Sioux Falls, SD 1/2013 -- 12/2014
 
 - Developed a bespoke e-commerce platform using Laraval that supported inventory
@@ -68,17 +80,17 @@ Work Experience
 Skills
 -------------------------------------------------------------------------------
 
-- **Languages:** PHP, Javascript (ES6), SQL, Shell, Python
-- **Front-End:** HTML5, CSS & CSS pre-processors (Sass, Less), Some LaTeX
-- **Frameworks:** Zend Framework 1 & 2/3, Slim, CodeIgniter, Laraval4, Silex
-- **Content Management:** WordPress, Jekyll, Joomla 1, Lemonstand v1
-- **Common APIs:** Quickbooks API, Zohobooks API, Google Maps API, 
-  Authorize.Net API, Paypal REST API, Elastic Search
+- **Languages:** PHP, Javascript/Nodejs, SQL, Shell, Python
+- **Front-End:** HTML, CSS & CSS pre-processors (Sass, Less), Some LaTeX
+- **PHP Frameworks:** Zend Framework 1 & 2/3, Slim, Laraval
+- **Content Management:** WordPress, Jekyll, Joomla 1, Hugo
+- **Common APIs:** Quickbooks, Zohobooks, Google Maps,  Paypal, Authorize.Net ,
+   WorldPay, Elastic Search
 - **Message Queues:** AWS SNS \& SQS Queues, Beanstalk
-- **Operations** Linux (CENTOS, Ubuntu), Docker, Ansible, NGINX and Apache 
-  HTTP server administration, MySQL/MariaDB databases
-- **Software:** Adobe CS Suite, VIM, Git version control.
-- **Concepts:** Behevioral Driven Development, Domain Driven Design,
+- **Operations** AWS Serverless, Linux (CENTOS, Ubuntu), Docker, Ansible, NGINX 
+   and Apache HTTP server administration, MySQL/MariaDB databases
+- **Version Control:** Git and SVN
+- **Concepts:** Test and Behevioral Driven Development, Domain Driven Design,
   microservice architectures, strong grasp of object orientated programming,
   database design, and design patterns
 - **Soft Skills:** Excellent technical communication skills, familiarity with 
