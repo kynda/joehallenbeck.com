@@ -24,7 +24,7 @@ exclude: ["Dockerfile", "docker-compose.yml", "README.md", "LICENSE", "_posts/im
 plugins: ["jekyll-paginate", "jekyll-archives"]
 
 # Paginate Configuration
-paginate: 10
+paginate: 3
 paginate_path: "/page/:num"
 
 # Archives Configuration

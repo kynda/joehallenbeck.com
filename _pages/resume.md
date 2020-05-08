@@ -24,9 +24,9 @@ Work Experience
   equipment repair industry. Saw teams scale from two to over a dozen individual
   contributors in the first year. Worked on migrating early MVP to modern PHP
   standards, established a git-flow workflow with the team and introduced Agile
-  project management practices.  -Implemented point of sale software through
-  WorldPay that processes $2+ million monthly card-present and card-not-present
-  transactions.
+  project management practices.  
+- Implemented point of sale software through WorldPay that processes $2+ million
+  monthly card-present and card-not-present transactions.
 - Coordinated with partners to co-develop interoperable APIs allowing for
   communication between our software and theirs.
 - Used AWS Serverless services (Cloud Formation, Lambda, SNS, SQS) and Nodejs to
@@ -86,7 +86,7 @@ Skills
 - **Content Management:** WordPress, Jekyll, Joomla 1, Hugo
 - **Common APIs:** Quickbooks, Zohobooks, Google Maps,  Paypal, Authorize.Net ,
    WorldPay, Elastic Search
-- **Message Queues:** AWS SNS \& SQS Queues, Beanstalk
+- **Message Queues:** AWS SNS & SQS Queues, Beanstalk
 - **Operations** AWS Serverless, Linux (CENTOS, Ubuntu), Docker, Ansible, NGINX 
    and Apache HTTP server administration, MySQL/MariaDB databases
 - **Version Control:** Git and SVN
