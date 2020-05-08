@@ -1,6 +1,6 @@
 #!/bin/bash
 
-jekyll b \
+docker exec -it joehallenbeckcom_joehallenbeckcom_1 jekyll b \
     -s ./ \
     -d ./_site/
 chmod -R 0775 ./_site/
