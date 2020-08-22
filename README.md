@@ -14,5 +14,5 @@ All batteries included, but to rebuild the site you will need:
 - ll-paginate
 - jekyll-archive
 
-[joehallenbeck.com]: http://joehallenbeck.com
-[Jekyllrb]: http://jekyllrb.com
+[joehallenbeck.com]: https://joehallenbeck.com
+[Jekyllrb]: https://jekyllrb.com

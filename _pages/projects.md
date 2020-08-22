@@ -66,7 +66,7 @@ National Monuments.
 
 ![JECA Ad 2009][]
 
-[Hallenbeck Digital Construction]: http://hallenbeckdigitalconstruction.com
+[Hallenbeck Digital Construction]: https://hallenbeckdigitalconstruction.com
 [Github]: https://github.com/{{ site.github }}
 [TimeKeeper]: https://github.com/{{ site.github }}/TimeKeeper
 [DropFramework]: https://github.com/{{ site.github }}/DropFramework
@@ -81,4 +81,6 @@ National Monuments.
 [Dreamscapes]: http//dreamscapes.kynda.net
 [Todo.Txt Extensions]: https://github.com/kynda/todo.txt-extensions
 [My Dotfiles]: https://github.com/kynda/role-dotfiles
-[Todo.txt]: http://todotxt.org/
+[Todo.txt]: https://todotxt.org/
+[Gatsby Digital Garden]: https://github.com/kynda/garden.joehallenbeck.com
+[Digital Garden]: https://garden.joehallenbeck.com

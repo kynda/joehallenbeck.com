@@ -6,13 +6,14 @@ description: >
     The blog of all things Joe Hallenbeck. Computer science. Cultural criticism.
     Philosophy. Comics. Drawing. Anything and nothing!
 baseurl: "/"
-url: "http://joehallenbeck.com"
+url: "https://joehallenbeck.com"
+gardenurl: "https://garden.joehallenbeck.com"
 
 # Social Accounts
 twitter: Lordbowlich
 github:  Kynda
 linkedin: joseph-hallenbeck-203b1b22
-shaarli: http://bowlich.com
+shaarli: https://bowlich.com
 piwik_url: piwik.kynda.net
 piwik_id: 1
 
