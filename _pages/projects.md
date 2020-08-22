@@ -42,6 +42,10 @@ thing-to-do.
 : And of course (sans posts), the template for this Jekyll site is available for
 anyone's use.
 
+[Gatsby Digital Garden][]
+: A Gatsby-based site for managing a Digital Garden that builds on Aengus
+McMillin's Gatsby Theme Brain. Used for my personal [Digital Garden][]
+
 Print Publications
 -------------------------------------------------------------------------------
 
