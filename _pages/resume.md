@@ -21,19 +21,24 @@ Work Experience
 **Developer,** Fullbay, Phoenix, AZ 12/2018 -- Present
 
 - Worked in a fast-growing start up producing a SAAS solution for the heavy-duty
-  equipment repair industry. Saw teams scale from two to over a dozen individual
-  contributors in the first year. Worked on migrating early MVP to modern PHP
-  standards, established a git-flow workflow with the team and introduced Agile
-  project management practices.  
+  equipment repair industry. Scaled team from two to over a dozen individual
+  contributors in the first year.
+- Migrated early MVP to modern PHP standards, standardized team on git-flow
+  introduced Agile project management practices.
 - Implemented point of sale software through WorldPay that processes $2+ million
   monthly card-present and card-not-present transactions.
-- Coordinated with partners to co-develop interoperable APIs allowing for
-  communication between our software and theirs.
+- Developed module to standardize time and time-zone management across services
+  as company scaled for international customers
+- Integrated with Salesforce for bidirectional sharing of accounts and records.
+- Coordinated with external partners to co-develop interoperable REST and 
+  service orientated APIs
+- Presented internal talks on test-driven development, unit test design,
+  application security (OWASP Top Ten) and the PHP Standards Recommendations 
+  (PSR).
 - Used AWS Serverless services (Cloud Formation, Lambda, SNS, SQS) and Nodejs to
-  create an event-based routing system allowing for concurrent and "eventually
-  consistent" operations to be offloaded from the main client-facing server and
-  onto a distribution of PHP applications.  Opening doors for scaling operations
-  to meet new demand.
+  create an event-based routing system allowing for concurrent and “eventually
+  consistent” operations to be offloaded from the main client-facing server and
+  onto a distribution of services.
 
 **Software Engineer,** Research Square, Durham, NC 1/2015 -- 11/2018
 
@@ -41,17 +46,16 @@ Work Experience
   Framework PHP application responsible for directing workflows and task
   assignment for a team of 300+ remote editors and translators
 - Spearheaded project to migrate 500,000 invoices from an internally built
-  accounting suite to ZohoBooks or QuickBooks. Evaluated  potential external
-  accounting suites for suitability. Maintained record integrity of new
-  transactions while actively migrating existing records.
+  accounting suite to ZohoBooks. Evaluated  potential external accounting suites
+  for suitability. Maintained record integrity of new transactions while
+  actively migrating existing records.
 - Refactored a 1.4 million loc monolithic PHP application into smaller business
-  contexts through the application of Domain Driven Design principles. Contexts
-  used AWS SNS/SQS queues to communicate domain events between services in a
-  hexagonal architecture.
+  contexts through the application of Domain Driven Design principles to create
+  a hexagonal event-driven architecture.
 - 100% remote team; used a scrum-based methodology for project management, unit
   testing, code reviews, and pairing to maintain team cohesion and project
   success
-  
+
 **Developer,** 44Interactive, Sioux Falls, SD 1/2013 -- 12/2014
 
 - Developed a bespoke e-commerce platform using Laraval that supported inventory
@@ -80,23 +84,47 @@ Work Experience
 Skills
 -------------------------------------------------------------------------------
 
-- **Languages:** PHP, Javascript/Nodejs, SQL, Shell, Python
-- **Front-End:** HTML, CSS & CSS pre-processors (Sass, Less), Some LaTeX
-- **PHP Frameworks:** Zend Framework 1 & 2/3, Slim, Laraval
-- **Content Management:** WordPress, Jekyll, Joomla 1, Hugo
-- **Common APIs:** Quickbooks, Zohobooks, Google Maps,  Paypal, Authorize.Net ,
-   WorldPay, Elastic Search
-- **Message Queues:** AWS SNS & SQS Queues, Beanstalk
-- **Operations** AWS Serverless, Linux (CENTOS, Ubuntu), Docker, Ansible, NGINX 
-   and Apache HTTP server administration, MySQL/MariaDB databases
-- **Version Control:** Git and SVN
-- **Concepts:** Test and Behevioral Driven Development, Domain Driven Design,
-  microservice architectures, strong grasp of object orientated programming,
-  database design, and design patterns
-- **Soft Skills:** Excellent technical communication skills, familiarity with 
-  graphic design and UI/UX, familiarity with common software development 
-  methodologies (Agile, Scrum, etc.), git-flow, pair programming, code reviews 
-  and continuous integration workflows.
+Languages
+: PHP, Javascript (Nodejs), SQL, Shell, Python, Go
+
+Font-End
+: HTML, CSS & CSS pre-processors (Sass, Less), Javascript, Svelte, Geolocation
+API, Bootstrap, Material Design, and Latex
+
+PHP Frameworks
+: Zend Framework 1 & 2/3, Slim, Laraval
+
+Content Management
+: WordPress, Jekyll, Hugo and Gatsby.js
+
+API Integration
+: Salesforce, Quickbooks, ZohoBooks, Google Maps, Paypal, Authorize.Net,
+Worldpay, Elastic Search, POSTMAN, ability to design and implement REST and
+service-oriented APIs
+
+Message Queues
+: AWS SNS & SQS Queues, Beanstalk
+
+DevOps
+: AWS (EC2, Lambda), Linux (CENTOS, Ubuntu), Docker, Ansible, NGINX and Apache
+HTTP server administration, MySQL/MariaDB databases
+
+Version Control
+: Git and SVN
+
+Application Security
+: OWASP, BURP Suite, various authentication methods (Basic, Digest, OAUTH, JWTs)
+
+Concepts
+: Test and Behavioral Driven Development (PHPUnit), Domain Driven Design, design
+for distributed systems (microservice architectures, event and message driven
+architectures), functional programming, object orientated programming, and
+database design.
+
+Soft Skills
+: Excellent technical communication skills, familiarity with graphic design and
+UI/UX, familiarity with common software development methodologies (Agile, Scrum,
+etc.), git-flow, pair programming, code reviews and continuous integration
 
 Education
 -------------------------------------------------------------------------------
