@@ -109,38 +109,38 @@ Work Experience
 Skills
 -------------------------------------------------------------------------------
 
-Back-End
+**Back-End**
 : PHP, Javascript (Nodejs), SQL, Shell, Python, Go
 
-Font-End
+**Font-End**
 : HTML, CSS & CSS pre-processors (Sass, Less), Javascript, Htmx, Bootstrap, and
 Latex
 
-PHP Frameworks
+**PHP Frameworks**
 : Laraval, Zend Framework 1 & 2/3, and Slim
 
-API Integration
+**API Integration**
 :  Salesforce, Quickbooks, ZohoBooks, Google Maps, Paypal, Authorize.Net,
 Worldpay, Elastic Search, Postman, ability to design and implement REST and
 service-oriented APIs
 
-DevOps
+**DevOps**
 :  Terraform, AWS, Linux (native and WSL), Docker, Ansible, DataDog, NGINX and
 Apache HTTP server administration, MySQL/MariaDB databases admin 
 
-Version Control
+**Version Control**
 : Git and SVN
 
-Application Security
+**Application Security**
 : OWASP, BURP Suite, various authentication methods (Basic, Digest, OAUTH, JWTs)
 
-Architecture
+**Architecture**
 : Test and Behavioral Driven Development (PHPUnit, Pest), Domain Driven Design,
 design for distributed systems (microservice architectures, event and message
 driven architectures, serverless), strong background in object orientated
 programming, and database design. 
 
-Soft Skills
+**Soft Skills**
 : Excellent technical communication skills, familiarity with graphic design and
 UI/UX, familiarity with common software development methodologies (Agile, Scrum,
 etc.), git-flow, pair programming, code reviews, and work
